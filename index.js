@@ -26,7 +26,7 @@
 
 // /**
 //  * CHALLENGE 1
-//  * 
+//  *
 //  * Create variable called "myPost".
 //  * Initial value should be {}
 //  * Add property called "postTitle" and value "Object is reference type"
@@ -55,7 +55,7 @@
 
 // /**
 //  * EXAMPLE 2
-//  * 
+//  *
 //  * Use "const" for object declaration
 //  */
 // const myObject = {};
@@ -70,7 +70,7 @@
 
 // /**
 //  * CHALLENGE 2
-//  * 
+//  *
 //  * Create variable "myObject" and add property "a" - 10.
 //  * Create another variable "copyOfMyObject" and its value should be myObject.
 //  * Add new property "b" with value false to the "copyOfMyObject".
@@ -88,7 +88,7 @@
 
 // /**
 //  * EXAMPLE 3
-//  * 
+//  *
 //  * Bracket notation
 //  */
 // let myObject = {
@@ -115,7 +115,7 @@
 
 // /**
 //  * EXAMPLE 4
-//  * 
+//  *
 //  * Missing properties
 //  */
 // const myObject = {
@@ -140,7 +140,7 @@
 
 // /**
 //  * CHALLENGE 3
-//  * 
+//  *
 //  * Create object "objectWithNestedObject" with initial value {}.
 //  * Add property "nestedObject" with initial value {}.
 //  * Add property "a" with value "null" to "nestedObject". Use dot notation
