@@ -1,6 +1,6 @@
 // /**
 //  * EXAMPLE 1
-//  * 
+//  *
 //  * Simplest function in JavaScript
 //  */
 // function myFunction() {}
@@ -19,7 +19,7 @@
 
 // /**
 //  * EXAMPLE 2
-//  * 
+//  *
 //  * Parameters of the function
 //  */
 // function myFunction(a, b) {
@@ -39,7 +39,7 @@
 
 // /**
 //  * EXAMPLE 3
-//  * 
+//  *
 //  * Function scope
 //  */
 // function myFunction(a, b) {
@@ -53,7 +53,7 @@
 
 // /**
 //  * EXAMPLE 4
-//  * 
+//  *
 //  * Reuse parameter names
 //  */
 // function myFunction1(a, b) {
@@ -75,7 +75,7 @@
 
 // /**
 //  * EXAMPLE 5
-//  * 
+//  *
 //  * Add "return"
 //  */
 // function sum(a, b) {
@@ -91,7 +91,7 @@
 
 // /**
 //  * EXAMPLE 6
-//  * 
+//  *
 //  * What happens after "return"?
 //  */
 // function myFunction(a) {
@@ -104,10 +104,9 @@
 
 // myFunction(10);
 
-
 // /**
 //  * CHALLENGE 1
-//  * 
+//  *
 //  * Create function called "mult" and it will have 3 parameters.
 //  * Create new variable and assign to it result of multiplication of all 3 parameters.
 //  * Print to the console result.
@@ -130,7 +129,7 @@
 
 // /**
 //  * CHALLENGE 2
-//  * 
+//  *
 //  * Create a function "concatenateStrings" and it will have 2 parameters.
 //  * And this function will return concatenated string.
 //  */
@@ -142,13 +141,13 @@
 
 // console.log(str3);
 
-// /** 
+// /**
 //  * CHALLENGE 3
-//  * 
+//  *
 //  * Create function "outerFunction" with 2 parameters.
 //  * Create function inside of the "outerFunction" and name it "innerFunction" with one parameter.
 //  * This "innerFunction" will return square of parameter (parameter * parameter).
-//  * 
+//  *
 //  * In the "outerFunction" sum both parameters.
 //  * Call "innerFunction" with argument that is equal to sum of both parameters of the "outerFunction".
 //  * Log to the console result of the "innerFunction" call.
