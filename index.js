@@ -1,6 +1,6 @@
 // /**
 //  * EXAMPLE 1
-//  * 
+//  *
 //  * Try to "declare" function expression
 //  */
 // // It is not possible to use function expression standalone
@@ -8,7 +8,7 @@
 
 // /**
 //  * EXAMPLE 2
-//  * 
+//  *
 //  * Assign function expression to the variable
 //  */
 // const myFunction = function() { };
@@ -19,7 +19,7 @@
 
 // /**
 //  * EXAMPLE 3
-//  * 
+//  *
 //  * Callback function
 //  */
 // setTimeout(function() {
@@ -28,7 +28,7 @@
 
 // /**
 //  * EXAMPLE 4
-//  * 
+//  *
 //  * Callback function (example 2)
 //  */
 // let i = 1;
@@ -36,3 +36,13 @@
 //   console.log("Message logged each 1 second " + i);
 //   i = i + 1;
 // }, 1000);
+
+let i = 1;
+var myInterval = setInterval(function () {
+  console.log("Here is message number " + i);
+  i = i + 1;
+}, 2000);
+
+setTimeout(function () {
+  clearInterval(myInterval);
+}, 10000);
